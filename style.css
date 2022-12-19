@@ -1,0 +1,75 @@
+*{margin:0; padding: 0;box-sizing: border-box;}
+
+.header{
+    width:100%;
+    height:100vh;
+    background-image: url('bgdance.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    font-style: italic;
+
+}
+
+.nav-item a{
+    color: rgb(222, 19, 154);
+}
+
+
+.header-section{
+    padding: 42px;
+    position: relative;
+    text-align: center;
+    color: azure;
+    font-style: italic;
+    
+}
+p{
+    margin:0 5px;
+    padding: 38px;
+}
+.header-buttons a{
+    border:1px solid white;
+    color: rgb(178, 6, 246);
+    text-decoration: none;
+    outline: none;
+    border-radius: 100px;
+    margin: 0 5px;
+    font-size: large;
+    padding: 12px 35px;
+    text-align: left;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(96, 212, 179);
+}
+
+.header-buttons a:hover{
+    color: rgb(245, 237, 237);
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    
+}
+
+
+.extra-div:hover{
+    background-color: rgb(203, 238, 6);
+    transition: 0.3ms;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    padding: 40px!important;
+    border: none;
+    border-radius: 3px;
+    transform: translateY(-20px);
+    
+}
+
+.card-img-top{
+    height: 290px;
+    width:50px;
+    padding: 30px;
+    
+}
